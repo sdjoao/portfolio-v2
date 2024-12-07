@@ -1,12 +1,16 @@
 import styled from "@emotion/styled"
 import Hero from "./sections/Hero/Hero"
+import Navbar from "../../components/Navbar/Navbar"
 
 const Home = () => {
 
     
 
     return (
-     <Hero /> 
+      <>
+      <Navbar />
+      <Hero /> 
+      </>
     )
   }
   

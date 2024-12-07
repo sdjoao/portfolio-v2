@@ -11,7 +11,9 @@ let theme = createTheme({
       },
     },
     typography: {
-        fontFamily: 'Roboto'
+        fontFamily: [
+            "'Roboto'",
+        ].join(','),
     }
 });
 
